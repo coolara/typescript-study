@@ -42,7 +42,7 @@ const a1: number[] = [1,2]
 const a1: number[] = [1,2,3]
 console.log(a1[99])
 // 隐式
-const arr5: [string, number, boolean] = ['linbudu', 599, true];
+const arr5: [string, number, boolean] = ['foo', 599, true];
 // 长度为 "3" 的元组类型 "[string, number, boolean]" 在索引 "3" 处没有元素。
 const [name1, age, male, other] = arr5; 
 ```
