@@ -53,3 +53,6 @@ obj3.name = "bar";
 
 const  arr1:readonly number[] =[1,2,3]
 arr1.push()
+
+
+const tmp1: Object = undefined

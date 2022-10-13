@@ -112,3 +112,24 @@ arr1.push(2) // push属性不存在
 ```
 
 #### `type` 与 `interface`
+
+- `interface`用于表示对象和类的结构;
+- `type`可以表示一个函数签名，一组联合类型，一个工具类型等等组成一个完整独立的类型
+
+#### `object` 、`Object`及`{}`
+
+- `Object`在ts中是所有类型
+  ```ts
+  // 在strictNullChecks未开启时成立
+  const o1: Object = undefined
+  const o2: Object = null
+  ```
+  > 与`Object`类似的有`String`,`Boolean`，`Number`等装箱类型。
+
+- `object `指的时非原始类型，用来表示数组，对象、函数等
+- `{}`一个对象字面量类型
+
+#### unique symbol
+```ts
+const s1: unique symbol = Symbol('foo')
+```
