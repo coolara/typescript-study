@@ -2,9 +2,7 @@ import { readdirSync, statSync, writeFileSync, watch } from "fs";
 import path from "path";
 const exclude = ["node_modules", ".git"];
 watch(__dirname, {}, (eventType, filename) => {
-  if(eventType === 'rename'){
     checkDirChange()
-  }
 });
 
 function checkDirChange() {

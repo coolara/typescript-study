@@ -15,3 +15,10 @@ const enum Items1 {
 let sfoo1 = 'foo'
 const sfoo = 'foo'
 
+const sy1: symbol = Symbol('foo')
+const sy2: unique symbol = Symbol('foo')
+
+interface Tmp {
+    [sy2]: string
+    [sy1]: number
+}

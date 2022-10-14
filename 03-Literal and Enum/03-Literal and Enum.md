@@ -159,7 +159,7 @@ var Items;
 ```
 #### 字面量类型推导
 ```ts
-let s1 = 'foo'  //s1s是string类型
+let s1 = 'foo'  //s1是string类型
 const s2 = 'foo' // s2被推导为foo类型，因为它不能再次赋值了
 ```
 
