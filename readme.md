@@ -4,3 +4,5 @@
 - 03-Literal Enum TypeScript的字面量类型和枚举
 - 04-Function and Class 函数和类
 - 05-any unknown never  TypeScript的内置类型
+- 06-ts-tools  TypeScript的工具类型
+- 07-Generic Type 泛型

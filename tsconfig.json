@@ -1,6 +1,7 @@
 {
   // 给ts-node单独配置
   "ts-node": {
+    "transpileOnly": true,
     "swc": true,
     "emit": true,
     "compilerHost": true,
