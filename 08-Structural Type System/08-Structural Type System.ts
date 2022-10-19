@@ -12,7 +12,7 @@ const USDCount = new USD(100);
 function addCNY(source: CNY, input: CNY) {
   return (source.value + input.value);
 }
-console.log(Object.getOwnPropertyNames(CNY));
+
 
 addCNY(CNYCount, CNYCount);
 // 报错了！
