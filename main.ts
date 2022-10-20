@@ -1,5 +1,6 @@
 import { readdirSync, statSync, writeFileSync, watch } from "fs";
 import path from "path";
+console.log('已启动>..')
 const exclude = ["node_modules", ".git"];
 watch(__dirname, {}, (eventType, filename) => {
     checkDirChange()
