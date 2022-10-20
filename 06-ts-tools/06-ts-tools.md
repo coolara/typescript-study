@@ -193,7 +193,7 @@ function isString(input: unknown): boolean {
 function foo(input: string | number) {
   if (isString(input)) {
     // 类型“string | number”上不存在属性“replace”。
-    (input).replace("linbudu", "linbudu599")
+    (input).replace("foo", "foo599")
   }
   if (typeof input === 'number') { }
   // ...
@@ -266,7 +266,7 @@ function handle(input: Foo | Bar) {
 ```ts
 import assert from 'assert';
 
-let name: any = 'linbudu';
+let name: any = 'foo';
 
 assert(typeof name === 'number');
 

@@ -63,7 +63,7 @@ let unknownVar: unknown;
 
 #### 什么都没有的类型`never`
 ```ts
-type UnionWithNever = "linbudu" | 599 | true | void | never;
+type UnionWithNever = "foo" | 599 | true | void | never;
 
 // 鼠标悬浮类型别名上，never直接被忽略了
 ```

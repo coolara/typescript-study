@@ -1,10 +1,10 @@
 function func(foo, bar){} // noImplicitAny为true 报错 
 
 // 被标记为 any 类型的变量可以拥有任意类型的值
-let anyVar: any = "linbudu";
+let anyVar: any = "foo";
 
 anyVar = false;
-anyVar = "linbudu";
+anyVar = "foo";
 anyVar = {
   site: "juejin"
 };
@@ -17,7 +17,7 @@ const val2: number = anyVar;
 const val3: () => {} = anyVar;
 const val4: {} = anyVar;
 
-type UnionWithNever = "linbudu" | 599 | true | void | never;
+type UnionWithNever = "foo" | 599 | true | void | never;
 function justThrow(): never {
   throw new Error()
 }

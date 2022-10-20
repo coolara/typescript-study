@@ -211,10 +211,10 @@ interface FooStruct {
 }
 
 class Foo implements FooStruct {
-  absProp: string = "linbudu"
+  absProp: string = "foo"
 
   get absGetter() {
-    return "linbudu"
+    return "foo"
   }
 
   absMethod(name: string) {

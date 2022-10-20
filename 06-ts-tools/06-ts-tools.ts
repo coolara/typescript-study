@@ -62,7 +62,7 @@ function handle2(input: Foo | Bar) {
 import assert from 'assert';
 import { expectType } from 'tsd';
 
-let name: any = 'linbudu';
+let name: any = 'foo';
 
 assert(typeof name === 'string');
 
