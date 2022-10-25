@@ -10,3 +10,5 @@
 - 09-Type Levels 类型层级（TOP -> BOTTOM）
 - 10-Conditional Types 条件类型
 - 11-Builtin Tool Types 内置工具类型
+- 12-Contextual Types 上下文类型
+- 13-Convariance and Contravariance 协变和逆变
