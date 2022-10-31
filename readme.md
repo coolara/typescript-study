@@ -12,3 +12,4 @@
 - 11-Builtin Tool Types 内置工具类型
 - 12-Contextual Types 上下文类型
 - 13-Convariance and Contravariance 协变和逆变
+- 14-Template String Types 模板字符串类型

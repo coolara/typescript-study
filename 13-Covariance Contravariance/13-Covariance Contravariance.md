@@ -31,4 +31,3 @@ function makeDogBark(dog: Dog){
 makeDogBark(new Corgi()); // 没问题
 makeDogBark(new Animal()); // 不行
 ```
-这就是 `TypeScript` 中的协变（ `covariance` ） 与逆变（ `contravariance` ） 在函数签名类型中的表现形式。这两个单词最初来自于几何学领域中：随着某一个量的变化，随之变化一致的即称为协变，而变化相反的即称为逆变。
