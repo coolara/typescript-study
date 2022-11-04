@@ -20,7 +20,9 @@ import "reflect-metadata";
 class Foo {
   handler() {}
 }
-
+// declare namespace Reflect {
+//     function defineMetadata(key: string, value: string, obj: object, property?: string){}
+// }
 Reflect.defineMetadata("class:key", "class metadata", Foo);
 Reflect.defineMetadata("method:key", "handler metadata", Foo, "handler");
 Reflect.defineMetadata(
